@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <div class="wrapper flex j-c-center a-i-center bg-dark">
+        <div class="conteiner flex f-d-column a-i-center">
+
+            <div class="form__card bg-dark2">
+                <div class="form__card__header bg-blue white f-s-24 flex j-c-center a-i-center">Todo List</div>
+                <div class="form__card__body flex f-d-row j-c-center ">
+                    <input type="text" class=" int form__input f-s-16 bg-grey" placeholder="Enter a todo..">
+                    <button type="button" class=" btn form__button f-s-16 flex a-i-center bg-blue white"><img
+                            src="./img/Vector.svg">Add
+                        Todo</button>
+                </div>
+            </div>
+
+
+            <div class="tasks__card bg-dark2">
+                <div class="tasks__card__header bg-blue white f-s-24 flex j-c-center a-i-center">Your List</div>
+                <div class="tasks__card__body flex f-d-column a-i-center">
+                    <div class="task__search-box flex f-d-row j-c-center">
+                        <input type="text" class=" int search__input f-s-16 bg-grey" placeholder="Search a todo..">
+                        <button type="button" class=" btn search__button f-s-16 flex a-i-center bg-blue white"><img
+                                src="./img/search.svg">Search</button>
+                    </div>
+                    <ul class="tasks__list">
+                        <li class="task bg-grey f-s-16 flex j-c-start a-i-center"><a href="#"><img
+                                    src="./img/del.svg"></a>Design
+                            Of UXshort
+                        </li>
+
+                        <li class="task bg-grey f-s-16 flex j-c-start a-i-center"><a href="#"><img
+                                    src="./img/del.svg"></a>Design
+                            Of UXshort
+                        </li>
+
+                    </ul>
+                    <button type="button" class=" btn clear__tasks f-s-16 flex j-c-center a-i-center bg-dark white"><img
+                            src="./img/delAll.svg">Tüm Todoları
+                        Temizle</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- <script src="../todoV2/script.js"></script> -->
+</body>
+
+</html>

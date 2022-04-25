@@ -1,0 +1,115 @@
+/* ------------------Global------------- */
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.conteiner {
+    width: 666px;
+}
+
+::selection {
+    color: #fff;
+    background: #278fb1;
+}
+
+/* ------------------Form Card------------- */
+.form__card {
+    width: 100%;
+    height: 172px;
+    border-radius: 1.5rem;
+    margin-bottom: 2.25rem;
+}
+
+.form__card__header {
+    height: 3.5rem;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.form__card__body {
+    margin: 40px;
+    width: 100%;
+}
+
+.form__input {
+    width: 100%;
+    height: 48px;
+    border-radius: 1rem;
+    padding-left: 1.5rem;
+    margin-right: 1rem;
+    color: #fff;
+    caret-color: #2acaff;
+}
+
+img {
+    margin-right: 0.5rem;
+}
+
+/* ------------------Tasks Card------------- */
+.tasks__card {
+    width: 100%;
+    border-radius: 1.5rem;
+}
+
+.tasks__card__header {
+    height: 3.5rem;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.tasks__card__body {
+    margin: 40px;
+}
+
+/* ------------------Search box------------- */
+
+.task__search-box {
+    width: 100%;
+}
+
+.search__input {
+    width: 100%;
+    height: 48px;
+    border-radius: 1rem;
+    padding-left: 1.5rem;
+    margin-right: 1rem;
+    color: #fff;
+    caret-color: #2acaff;
+}
+
+
+/* ------------------Clear Button------------- */
+.clear__tasks {
+    width: 100%;
+    outline: 0px solid #1C1C1C;
+}
+
+.clear__tasks:hover {
+    background-color: #303030;
+    outline: 3px solid #FF5C5C;
+    transition: all 400ms ease-in-out;
+}
+
+.clear__tasks:active {
+    background-color: #FF5C5C;
+    transition: all 400ms ease-in-out;
+}
+
+
+/* ------------------Todo------------- */
+
+.tasks__list {
+    width: 100%;
+    margin: 40px;
+
+}
+
+.task {
+    height: 48px;
+    border-radius: 1rem;
+    color: #fff;
+    padding-left: 1.5rem;
+}
+
+.task img {
+    margin-right: 1rem;
+}
